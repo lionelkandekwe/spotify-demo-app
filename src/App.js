@@ -37,11 +37,11 @@ function App() {
     console.log("I HAVE A TOKEN====> ", _token)
   }, [])
 
-  console.log("The person ==> ", user)
-
-  console.log("Token ===>", token)
-
-  return <div className="app">{token ? <Player /> : <Login />}</div>
+  return (
+    <div className="app">
+      {token ? <Player spotify={spotify} /> : <Login />}
+    </div>
+  )
 }
 
 export default App
