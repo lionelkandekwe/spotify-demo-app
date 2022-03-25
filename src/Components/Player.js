@@ -1,6 +1,7 @@
 import React from "react"
 import SideBar from "./SideBar"
 import Body from "./Body"
+import Footer from "./Footer"
 import "../Assets/Styles/Player.css"
 
 const Player = ({ spotify }) => {
@@ -10,6 +11,7 @@ const Player = ({ spotify }) => {
         <SideBar />
         <Body />
       </div>
+      <Footer />
     </div>
   )
 }
