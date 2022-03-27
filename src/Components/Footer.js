@@ -14,7 +14,11 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__left">
-        <img className="footer__albumLogo" src="" alt="" />
+        <img
+          className="footer__albumLogo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF74rLhDwc7ZHTnQKeYRJ00gq3TArzZGWH9PzelTGwV-pbZ5ZJuJXWZ1vM1PkqaaWFx-g&usqp=CAU"
+          alt=""
+        />
         <div className="footer__songInfo">
           <h4>Why</h4>
           <p>Diamond</p>
